@@ -15,7 +15,7 @@ public class Main {
         String instancia = "";
         try {
             DeleteLastLineOfFile();
-            breader = new BufferedReader(new FileReader("/home/saulfeliciano/Downloads/weka-3-9-4/data/flags-71acurracy.arff"));
+            breader = new BufferedReader(new FileReader("src/Data/flags-71acurracy.arff"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -55,7 +55,7 @@ public class Main {
             instancia += sc6.next();
 
             WriteDataToFile(instancia);
-            testBreader = new BufferedReader(new FileReader("/home/saulfeliciano/Downloads/weka-3-9-4/data/flags-test.arff"));
+            testBreader = new BufferedReader(new FileReader("src/Data/flags-test.arff"));
             Instances test = new Instances(testBreader);
             test.setClassIndex(3);
             testBreader.close();
@@ -68,7 +68,7 @@ public class Main {
 //            String cMatrix = eval.toMatrixString();
 //            System.out.println(cMatrix);
 
-            System.out.println(eval.predictions() + "\nPredicted value: \n");
+            System.out.println("Predicted value: \n");
 
             switch (eval.predictions().toString().charAt(10))
             {
@@ -108,7 +108,7 @@ public class Main {
     }
 
     public static void DeleteLastLineOfFile() throws IOException {
-        RandomAccessFile f = new RandomAccessFile("/home/saulfeliciano/Downloads/weka-3-9-4/data/flags-test.arff", "rw");
+        RandomAccessFile f = new RandomAccessFile("src/Data/flags-test.arff", "rw");
         long length = f.length() - 1;
         byte b;
         do {
@@ -121,18 +121,18 @@ public class Main {
     }
 
     public static void WriteDataToFile(String data) throws IOException {
-        File file = new File("/home/saulfeliciano/Downloads/weka-3-9-4/data/flags-test.arff");
+        File file = new File("src/Data/flags-test.arff");
         FileWriter fr = new FileWriter(file, true);
         fr.write(data);
         fr.close();
 
-        BufferedReader input = new BufferedReader(new FileReader("/home/saulfeliciano/Downloads/weka-3-9-4/data/flags-test.arff"));
+        BufferedReader input = new BufferedReader(new FileReader("src/Data/flags-test.arff"));
         String last = null, line;
 
         while ((line = input.readLine()) != null) {
             last = line;
         }
-        
+
         System.out.println("Ultima linea " + last);
     }
 

@@ -1,0 +1,12 @@
+@relation 'flags-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-4-weka.filters.unsupervised.attribute.Remove-R11-weka.filters.unsupervised.attribute.Remove-R24-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R10-12-weka.filters.unsupervised.attribute.Remove-R6-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Remove-R6-7,9-10,12-15'
+
+@attribute landmass {1,2,3,4,5,6}
+@attribute zone {1,2,3,4}
+@attribute language {1,2,3,4,5,6,7,8,9,10}
+@attribute religion {0,1,2,3,4,5,6,7}
+@attribute red {0,1}
+@attribute crosses {0,1,2}
+@attribute sunstars {0,1,2,3,4,5,6,7,9,10,14,15,22,50}
+
+@data
+5,1,10,?,1,0,1

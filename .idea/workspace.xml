@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bd732e5-c486-4bf6-bef1-0a482b805836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9bd732e5-c486-4bf6-bef1-0a482b805836" name="Default Changelist" comment="Applying best model finded (NaiveBayes Classifier with 70% accuracy) and adding attributes value options">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/logical/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/logical/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logical/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logical/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +46,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Data" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Data" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,42 +95,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580964293662</updated>
-      <workItem from="1580964298910" duration="40588000" />
+      <workItem from="1580964298910" duration="41449000" />
+      <workItem from="1581295907514" duration="1693000" />
     </task>
+    <task id="LOCAL-00001" summary="Applying best model finded (NaiveBayes Classifier with 70% accuracy) and adding attributes value options">
+      <created>1581110615453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581110615453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Applying best model finded (NaiveBayes Classifier with 70% accuracy) and adding attributes value options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applying best model finded (NaiveBayes Classifier with 70% accuracy) and adding attributes value options" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="610" y="356" width="678" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581298288732">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="610" y="356" width="678" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1581298288732" />
+    <state x="2438" y="145" width="873" height="823" key="CommitChangelistDialog2" timestamp="1581110687590">
+      <screen x="0" y="30" width="3840" height="1050" />
+    </state>
+    <state x="2438" y="145" width="873" height="823" key="CommitChangelistDialog2/0.30.3840.1050@0.30.3840.1050" timestamp="1581110687590" />
     <state x="742" y="312" width="426" height="489" key="FileChooserDialogImpl" timestamp="1581022833156">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="742" y="312" width="426" height="489" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1581022833156" />
-    <state width="1868" height="288" key="GridCell.Tab.0.bottom" timestamp="1581109989159">
+    <state width="1868" height="288" key="GridCell.Tab.0.bottom" timestamp="1581298445091">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1868" height="288" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581298445091" />
+    <state width="1868" height="288" key="GridCell.Tab.0.bottom/0.30.3840.1050@0.30.3840.1050" timestamp="1581117128845" />
+    <state width="1868" height="288" key="GridCell.Tab.0.center" timestamp="1581298445090">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1868" height="288" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581298445090" />
+    <state width="1868" height="288" key="GridCell.Tab.0.center/0.30.3840.1050@0.30.3840.1050" timestamp="1581117128834" />
+    <state width="1868" height="288" key="GridCell.Tab.0.left" timestamp="1581298445089">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1868" height="288" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581298445089" />
+    <state width="1868" height="288" key="GridCell.Tab.0.left/0.30.3840.1050@0.30.3840.1050" timestamp="1581117128831" />
+    <state width="1868" height="288" key="GridCell.Tab.0.right" timestamp="1581298445091">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1868" height="288" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581298445091" />
+    <state width="1868" height="288" key="GridCell.Tab.0.right/0.30.3840.1050@0.30.3840.1050" timestamp="1581117128836" />
+    <state x="2474" y="289" width="802" height="534" key="Vcs.Push.Dialog.v2" timestamp="1581110634537">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
-    <state width="1868" height="288" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1581099218640" />
-    <state width="1868" height="288" key="GridCell.Tab.0.bottom/0.30.3840.1050@0.30.3840.1050" timestamp="1581109989159" />
-    <state width="1868" height="288" key="GridCell.Tab.0.center" timestamp="1581109989157">
-      <screen x="0" y="30" width="3840" height="1050" />
+    <state x="2474" y="289" width="802" height="534" key="Vcs.Push.Dialog.v2/0.30.3840.1050@0.30.3840.1050" timestamp="1581110634537" />
+    <state x="614" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1581295910567">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1868" height="288" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1581099218628" />
-    <state width="1868" height="288" key="GridCell.Tab.0.center/0.30.3840.1050@0.30.3840.1050" timestamp="1581109989157" />
-    <state width="1868" height="288" key="GridCell.Tab.0.left" timestamp="1581109989156">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="1868" height="288" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1581099218614" />
-    <state width="1868" height="288" key="GridCell.Tab.0.left/0.30.3840.1050@0.30.3840.1050" timestamp="1581109989156" />
-    <state width="1868" height="288" key="GridCell.Tab.0.right" timestamp="1581109989158">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state width="1868" height="288" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1581099218639" />
-    <state width="1868" height="288" key="GridCell.Tab.0.right/0.30.3840.1050@0.30.3840.1050" timestamp="1581109989158" />
-    <state x="2474" y="289" width="802" height="534" key="Vcs.Push.Dialog.v2" timestamp="1581110397519">
-      <screen x="0" y="30" width="3840" height="1050" />
-    </state>
-    <state x="2474" y="289" width="802" height="534" key="Vcs.Push.Dialog.v2/0.30.3840.1050@0.30.3840.1050" timestamp="1581110397519" />
+    <state x="614" y="381" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1581295910567" />
     <state x="2645" y="472" width="459" height="169" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581087857643">
       <screen x="0" y="30" width="3840" height="1050" />
     </state>
